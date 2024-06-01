@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     background-color: #f2f2f2;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+  h2 {
+    color: #c00;
+     background: linear-gradient(to right, #400000, #c00); /* Deep blackish red to red gradient */
+    color: #fff;
+    
+}
+header {
+    display: flex;
+    
+}
+.profile-image {
+    flex: 1;
+    padding: 10px;
+}
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+}
+.contact-info {
+    flex: 2;
+    padding: 10px;
+    
+}
+.contact-info address {
+    font-style: normal;
+}
+.section {
+    margin-top: 20px;
+}
+.section h2 {
+    background-color: #c00; /* Red */
+    color: #fff; /* White */
+    padding: 10px;
+}
+ .section p {
+    color: black; /* Dark gray */
+}
+
+.section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
